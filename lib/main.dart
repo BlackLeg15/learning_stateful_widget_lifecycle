@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+
 import 'app/1_init_state/initial_page.dart' as init_state;
 import 'app/2_did_update_widget/initial_page.dart' as did_update_widget;
 import 'app/3_build/initial_page.dart' as build_phase;
 import 'app/4_did_change_dependencies/initial_page.dart' as did_change_dependencies;
 import 'app/5_deactivate_and_6_activate/initial_page.dart' as de_and_activate;
+import 'app/7_dispose/initial_page.dart' as dispose;
 import 'app/widgets/state_option_button.dart';
 
 void main() {
@@ -55,7 +57,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 10),
             StateOptionButton(page: de_and_activate.InitialPage(), label: '5-6. deactivate activate'),
             SizedBox(height: 10),
-            StateOptionButton(page: de_and_activate.InitialPage(), label: '7. dispose'),
+            StateOptionButton(page: dispose.InitialPage(), label: '7. dispose'),
           ],
         ),
       ),

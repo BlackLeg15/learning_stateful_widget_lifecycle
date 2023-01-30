@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'widgets/label_widget.dart';
 
 import 'second_page.dart';
+import 'widgets/label_widget.dart';
 
 class InitialPage extends StatefulWidget {
   const InitialPage({Key? key}) : super(key: key);
